@@ -1,5 +1,9 @@
-export default function TodoList(){
+import Todo from "./Todo";
+
+export default function TodoList({todos}){
     return(
-        <div>This is my todo list</div>
+        todos.map(todo => {
+            return <Todo key={todo.id} todo={todo}/>
+        })
     );
 }

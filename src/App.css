@@ -13,7 +13,7 @@ body{
     background-color: white;
     border-radius: 5px;
     padding: 3rem;
-    width: 30vw;
+    max-width: 40vw;
     margin: 10vh auto;
     display: flex;
     gap: 2rem;
