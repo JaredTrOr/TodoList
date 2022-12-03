@@ -1,2 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+.container{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3rem;
+    width: 30vw;
+    margin: 10vh auto;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.input{
+    border: 1px solid rgba(209, 209, 209, 0.933);
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.input:focus{
+    border: 1px solid rgba(156, 156, 156, 0.933);
+    outline: none;
+}
 
 
