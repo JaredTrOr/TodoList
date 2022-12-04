@@ -1,0 +1,11 @@
+.image-container{
+    margin: auto;
+    text-align: center;
+    font-size: medium;
+    color: #a2bdff;
+    font-weight: bold;
+}
+
+img{
+    width: 70%;
+}
