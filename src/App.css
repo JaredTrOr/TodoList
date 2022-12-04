@@ -6,11 +6,11 @@
 }
 
 body{
-    background-color: rgb(241, 241, 241);
+    background-color: #453C67;
 }
 
 .container{
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 5px;
     padding: 3rem;
     max-width: 40vw;

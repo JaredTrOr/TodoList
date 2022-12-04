@@ -52,11 +52,11 @@ function App() {
     <>
       <div className='container'>
         <h1>Todo List</h1>
-        <input ref={inputTodo} className='input' type="text"/>
+        <input ref={inputTodo} className='input' type='text'/>
         <button className='btn btn-add' onClick={addTodo}>Add todo</button>
-        <TodoList todos={todos} className={todos ? 'visible' : 'noVisible'} toggleTodo={toggleTodo}/>
-        {todos.length === 0 && <Image/>}
         <button className='btn btn-clear' onClick={clearTodos}>Clear todos</button>
+        <TodoList todos={todos} toggleTodo={toggleTodo}/>
+        {todos.length === 0 && <Image/>}
       </div>
     </>
   );
