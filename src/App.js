@@ -3,7 +3,6 @@ import './components/Button.css'
 import TodoList from './components/TodoList';
 import Image from './components/Image';
 import {useState, useRef} from 'react';
-import empty from './img/empty.png';
 
 function App() {
   const [todos, setTodos] = useState([]);

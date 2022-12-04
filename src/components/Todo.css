@@ -1,0 +1,13 @@
+.todo{
+    background-color: #eeee;
+    border-radius: 5px;
+    padding-block: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.check{
+    margin-left: 1rem;
+    width: 20px;
+    height: 20px;
+}

@@ -1,8 +1,10 @@
+import './Todo.css';
+
 export default function Todo({todo}){
     return(
         <>  
             <div className="todo">
-                <input type='checkbox'/>
+                <input className='check' type='checkbox'/>
                 {todo.name}
             </div> 
         </>
